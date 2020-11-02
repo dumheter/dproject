@@ -1,0 +1,1 @@
+find ./src -name "*.hpp" -o -name "*.cpp" | xargs -I {} clang-format -style=file -i {}
